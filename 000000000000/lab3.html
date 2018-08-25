@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab pratice</title>
+</head>
+<style type="text/css">
+	h1{
+		background-color: blue;
+		color: white;
+		font-style: italic;
+		padding: 10px;
+		margin: 5px;
+</style>
+<body>
+	<h1>GET METHOD</h1>
+	<p>in this get method , we dont have security for our data and only limited  data can be sent the server page
+it is carrying row data betqween client server
+<span style="color: red"> this is the default method of the form</span></p>
+<h1>Get Method</h1>
+<p>get request remain in the browser history
+get request  can be bookmarked
+get requset should never used when dealing with sensitive data </p>
+
+<br>
+<form action="lab2.html" method="get">
+
+	<label style="background-color: aqua">peru typee chey</label>
+<input type="text" name="user" placeholder="oka 7 words lo type chey">
+<br>
+<label style="background-color: lightgreen">password type chey</label>
+<input type="password" name="pass" placeholder="oka 5 letters lo undali">
+<br>
+<input type="submit" name="signin">
+</form>                     
+
+
+<br>
+<h1>POST Method</h1>
+<p>in this method we have security for our data and we can send bulk of data to the server page. it transfer encrypted data from client to server </p>
+
+
+<form>
+	<form action="lab2.html" method="post">
+
+	<label style="background-color: aqua">Enter Damn name</label>
+<input type="text" name="user" placeholder="oka 7 words lo type chey">
+<br>
+<label style="background-color: lightgreen">password type chey swmay</label>
+<input type="password" name="pwd" placeholder="oka 5 letters lo undali">
+<br>
+<input type="submit" value="login">
+</form>   
+
+	<form action="lab2.html" name="myform" id="form">
+
+	<label style="background-color: aqua">select valid date</label>
+	<br>s
+	<input type="date" name="dt" >
+	<br>
+	<input type="submit" value="nextpage">
+	</form>   
+
+<form action="lab2.html" name="myform" id="form">
+
+	<label style='color: aqua'>select any color</label>
+	<br>
+	<input type='color' name="clr" >
+	<br>
+	<input type="submit" value="nextpage">
+	</form>  
+	
+
+	<label style='color: aqua'>select any color</label>
+	<br>
+	<input type='email' name="email" value="email" >
+	<br>
+	<input type="submit" value="nextpage">
+	</form>  
+
+
+
+	<label style='color: aqua'>select any one</label>
+	<br>
+	<input type='number' name="email" value="0" min="4" max="70" step="0" >
+	<br>
+	<input type="submit" value="nextpage">
+	</form>  
+
+	<label style='color: aqua'>select any one</label>
+	<br>
+	<input type='range' name="email" value="0" min="4" max="70" step="0" >
+	<br>
+	<input type="submit" value="nextpage">
+	</form>  
+<label style='color: aqua'>select any one</label>
+	<br>
+	<input type='search' name="key" >
+	<br>
+	<input type="submit" value="nextpage">
+	</form>  
+
+<label style='color: aqua'>select any one</label>
+	<br>
+	<input type='url' name="key" >
+	<br>
+	<input type="submit" value="nextpage">
+	</form>  
+
+<form action="lab2.html" autocomplete="off">
+
+<label style='color: aqua'>select any one</label>
+	first name <br>
+	<input type='text' name="uname" >
+	email<br>
+	<input type="submit" value="login">
+	</form>  
+
+<form action="lab2.html" autocomplete="on">
+
+<label style='color: aqua'>select any one</label>
+	firstname<br>
+	<input type='text' name="uname" >
+	email<br>
+	<input type="submit" value="login">
+	</form>  
+
+
+</body>
+</html>
